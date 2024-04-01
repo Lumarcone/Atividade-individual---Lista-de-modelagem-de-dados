@@ -1,0 +1,15 @@
+CREATE TABLE Automovel(
+  Placa VARCHAR(10),
+  Modelo VARCHAR(20),
+  Ano DATE,	
+  Montadora VARCHAR(50)
+  );
+  
+  INSERT INTO Automovel VALUES ('ABC-123', 'Civic', '2021', 'Honda (https://www.honda.com.br)'),
+('DEF-456', 'Corolla', '2022', 'Toyota (https://www.toyota.com.br)'),
+('GHI-789', 'Golf', '2020', 'Volkswagen (https://www.vw.com.br)'),
+('JKL-012', 'Focus', '2021', 'Ford (https://www.ford.com.br)'),
+('MNO-345', 'Onix', '2019', 'Chevrolet (https://www.chevrolet.com.br)'),
+('PQR-678', 'Corolla Cross', '2023', 'Toyota (https://www.toyota.com.br)');
+
+SELECT*FROM Automovel;

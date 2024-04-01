@@ -1,0 +1,17 @@
+CREATE TABLE Aluno(
+  RA int          PRIMARY key ,
+  Nome varchar(50),
+  email varchar(50),
+  endereço varchar(50),
+  data_nasc date
+ );
+ 
+ INSERT INTO Aluno VALUES (1, 'Rafael Silva', 'rafael.silva@example.com', 'Rua das Rosas, 123, São Paulo, 01234', '1999-03-18'),
+(2,'Camila Oliveira', 'camila.oliveira@example.com', 'Av. das Palmeiras, 45, Rio de Janeiro, 21098', '2000-07-25'),
+(3,'Thiago Santos', 'thiago.santos@example.com', 'Rua dos Girassóis, 789, Belo Horizonte, 34567' , '1998-11-11'),
+(4,'Juliana Souza', 'juliana.souza@example.com', 'Rua das Orquídeas, 321, Brasília, 45678', '2001-05-02'),
+(5,'Lucas Lima', 'lucas.lima@example.com', 'Av. das Avenidas, 654, Recife, 67890', '2002-09-15'),
+(6,'Renata Costa', 'renata.costa@example.com', 'Rua das Margaridas, 987, Salvador, 78901', '2003-12-30');
+
+
+SELECT*FROM Aluno

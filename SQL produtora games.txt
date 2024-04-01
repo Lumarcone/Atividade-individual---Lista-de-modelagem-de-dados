@@ -1,0 +1,31 @@
+CREATE TABLE desenvolvedor(
+  Nome VARCHAR(50),
+  CPF VARCHAR(50),
+  Data_nasc DATE
+  );
+  
+  INSERT INTO desenvolvedor VALUES( 'Lucas Oliveira', '111.222.333-44', '1992-05-20'),
+('Camila Silva', '222.333.444-55', '1988-09-15'),
+('Thiago Santos', '333.444.555-66', '1995-03-10'),
+('Juliana Costa', '444.555.666-77', '1987-11-25'),
+('Rafaela Lima', '555.666.777-88', '1990-07-12'),
+('Mateus Souza', '666.777.888-99', '1993-01-08');
+
+SELECT*FROM desenvolvedor;
+
+
+CREATE TABLE Projeto(
+  Nome VARCHAR(50),
+  Gênero VARCHAR(50),
+  Faixa_etaria VARCHAR(50),
+  Data_nasc DATE
+  );
+  
+  INSERT INTO Projeto VALUES ('Loucuras na Cozinha','Comédia', 'Livre', '2022-10-20'),
+('Robôs Gigantes Atacam','Ficção Científica', '16+', '2024-03-08'),
+('Dramalhão da Vovó', 'Drama','18+', '2023-12-10'),
+('O Terror do Gato Maluco', 'Terror', '18+',' 2022-07-30'),
+('A Incrível Aventura dos Pinguins Palhaços', 'Animação', 'Livre', '2024-01-05');
+
+
+SELECT*FROM Projeto;

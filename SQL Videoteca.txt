@@ -1,0 +1,49 @@
+CREATE table Filme(
+  Titulo VARCHAR(50),
+  Idioma VARCHAR(50),
+  Duração VARCHAR(50),
+  Preço VARCHAR(50)
+  );
+  
+ INSERT INTO Filme VALUES 
+  ('Forrest Gump', 'Inglês', '142 min', 'R$ 29,99'),
+  ('O Poderoso Chefão', 'Inglês', '175 min', 'R$ 24,99'),
+  ('A Origem', 'Inglês', '148 min', 'R$ 19,99'),
+  ('Titanic', 'Inglês', '195 min', 'R$ 24,99'),
+  ('Matrix', 'Inglês', '136 min', 'R$ 21,99'),
+  ('Pantera Negra', 'Inglês', '134 min', 'R$ 22,99');
+
+SELECT*FROM Filme;
+
+
+CREATE TABLE Elenco(
+  Nome VARCHAR(50),
+  Nacionalide VARCHAR(50),
+  Data_nas DATE
+ );
+                    
+INSERT INTO Elenco VALUES ('Tom Hanks', 'Estados Unidos', '1956-07-09'),
+('Marlon Brando','Estados Unidos', '1924-04-03'),
+('Leonardo DiCaprio', 'Estados Unidos', '1974-11-11'),
+('Kate Winslet', 'Reino Unido', '1975-10-05'),
+('Keanu Reeves', 'Canadá', '1964-09-02'),
+('Chadwick Boseman', 'Estados Unidos', '1976-11-29');  
+
+SELECT*FROM Elenco;
+
+
+CREATE TABLE Diretor(
+  Nome VARCHAR(50),
+  nacionalidade VARCHAR(50),
+  Idade int,
+  Data_nasc DATE
+  );
+  
+  INSERT INTO Diretor VALUES('Robert Zemeckis', 'Estados Unidos', '70', '1952-05-14'),
+('Francis Ford Coppola', 'Estados Unidos', '82', '1939-04-07'),
+('Christopher Nolan', 'Reino Unido', '51', '1970-07-30'),
+('James Cameron', 'Canadá', '67', '1954-08-16'),
+('Lana Wachowski', 'Estados Unidos', '56', '1965-06-21'),
+('Ryan Coogler', 'Estados Unidos', '35', '1986-05-23');
+
+SELECT*FROM Direto;

@@ -1,0 +1,16 @@
+CREATE TABLE Colaborador(
+  ID int,
+  Nome varchar(50),
+  cpf varchar(50),
+  cargor varchar(50),
+  Salário varchar(50)
+ );
+ 
+ INSERT INTO Colaborador VALUES (1, 'Ana Silva', '123.456.789-00', 'Gerente de Vendas', 'R$ 5,000'),
+(2, 'João Santos', '987.654.321-00' ,'Analista de Marketing ','R$ 3,500'),
+(3, 'Maria Oliveira', '456.789.123-00', 'Desenvolvedor de Software', 'R$ 4,200'),
+(4, 'Pedro Souza', '789.123.456-00', 'Assistente Administrativo', 'R$ 2,800'),
+(5, 'Laura Lima', '321.654.987-00', 'Contadora', 'R$ 4,800'),
+(6, 'Carlos Costa', '654.321.987-00', 'Técnico de Suporte' ,'R$ 3,000');
+
+SELECT*FROM Colaborador

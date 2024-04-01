@@ -1,0 +1,30 @@
+CREATE TABLE Autor(
+  Nome VARCHAR(50),
+  Nacionalidade VARCHAR(50),
+  Data_nasc DATE
+  );
+  
+  INSERT INTO Autor VALUES ('Machado de Assis', 'Brasileiro', '1839-06-21'),
+('Virginia Woolf','Britânica', '1882-01-25'),
+('Gabriel García Márquez', 'Colombiano', '1927-03-06'),
+('Haruki Murakami', 'Japonês' ,'1949-01-12'),
+('J.K. Rowling', 'Britânica', '1965-07-31'),
+('Isabel Allende', 'Chilena', '1942-08-02');
+
+SELECT*FROM Autor
+
+CREATE TABLE Livro(
+  Título VARCHAR(50),
+  Páginas int,
+  Editora VARCHAR(50),
+  Acabamento VARCHAR (30)
+  );
+  
+  INSERT INTO Livro VALUES ('Harry Potter e a Pedra Filosofal', 223, 'Rocco', 'Capa Dura'),
+('Cem Anos de Solidão' ,368, 'Record', 'Brochura'),
+('A Revolução dos Bichos', 144, 'Companhia das Letras', 'Capa Flexível'),
+('O Senhor dos Anéis', 1184, 'Martins Fontes', 'Capa Dura'),
+('1984', 416, 'Companhia das Letras', 'Brochura'),
+('O Pequeno Príncipe', 96, 'Agir', 'Capa Dura');
+
+SELECT*FROM Livro

@@ -1,0 +1,15 @@
+CREATE table Produto(
+  nome VARCHAR(50),
+  Marca VARCHAR(50),
+  Quantidade VARCHAR(50),
+  Preço VARCHAR (50)
+  );
+  
+  INSERT INTO Produto VALUES ('Arroz Integral', 'Tio João (0800-888-6666, Brasil)', '1 kg', 'R$ 5,99'),
+('Leite Integral', 'Piracanjuba (0800-722-1718, Brasil)', '1 litro', 'R$ 3,49'),
+('Ovos', 'Granja Feliz(0800-123-4567, Brasil)', '12 unidades', 'R$ 6,99'),
+('Sabão em Pó', 'Omo (0800-707-1107, Brasil)', '1 kg', 'R$ 9,99'),
+('Pão de Forma', 'Wickbold (0800-170-773, Brasil)', '500g', 'R$ 4,29'),
+('Iogurte Natural', 'Nestlé (0800-770-1100, Brasil)', '1 kg', 'R$ 3,79');
+
+SELECT*FROM Produto;
